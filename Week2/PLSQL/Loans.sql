@@ -1,0 +1,1 @@
+create table Loans(LoanID number primary key, CustomerID number, InterestRate number, foreign key (CustomerID) references Customers(CustomerID));
